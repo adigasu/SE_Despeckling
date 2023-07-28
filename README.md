@@ -1,13 +1,11 @@
-# Shared Encoder (SE) based Denoising of Optical Coherence Tomography (OCT) Images
-
+# <p align="center">  _Shared Encoder (SE) based Denoising of Optical Coherence Tomography (OCT) Images_
+## <p align="center"> _ICVGIP 2018_ [[paper]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&ved=2ahUKEwiv2Ib77MTfAhXXdn0KHZsrCrkQFjAIegQIBBAC&url=http%3A%2F%2Fweb2py.iiit.ac.in%2Fresearch_centres%2Fpublications%2Fdownload%2Finproceedings.pdf.b2c08820db3e1d98.53756b6573685f49435647495031385f53452e706466.pdf&usg=AOvVaw27oqOvZQ2fAmV2JX9jtQd4)
 OCT images are corrupted by speckle noise due to the underlying coherence-based strategy. Speckle suppression/removal in OCT images plays a significant role in both manual and automatic detection of diseases, especially in early clinical diagnosis. In this work, a new method is proposed for denoising OCT images based on CNN by learning common features from unpaired noisy and clean OCT images in an unsupervised, end-to-end manner. The proposed method consists of a combination of two autoencoders with shared encoder layers, which we call as **Shared Encoder (SE)** architecture. The SE is trained
 to reconstruct noisy and clean OCT images with respective autoencoders. The denoised OCT image is obtained using a cross-model prediction. The proposed method can be used for denoising OCT images with or without pathology from any scanner.
 
-Download Paper: [[SE based Denoising]](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&ved=2ahUKEwiv2Ib77MTfAhXXdn0KHZsrCrkQFjAIegQIBBAC&url=http%3A%2F%2Fweb2py.iiit.ac.in%2Fresearch_centres%2Fpublications%2Fdownload%2Finproceedings.pdf.b2c08820db3e1d98.53756b6573685f49435647495031385f53452e706466.pdf&usg=AOvVaw27oqOvZQ2fAmV2JX9jtQd4)
+<p align="center"> The Schematic representation of proposed Shared Encoder (SE) architecture
 
-The Schematic representation of proposed Shared Encoder (SE) architecture
-
-<img src = 'misc/se.png' height = '300px'>
+<p align="center">  <img src = 'misc/se.png' height = '400px'>
 
 ### Dependencies
 This code depends on the following libraries:
