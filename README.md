@@ -18,6 +18,13 @@ This code depends on the following libraries:
 
 Code should be compatible with Python versions 2.7-3.5. (tested in python2.7)
 
+### Datasets
+Datasets can be found in following links:
+1) [Dataset1](https://people.duke.edu/~sf59/Fang_TMI_2013.htm)
+2) [Dataset2](https://people.duke.edu/~sf59/Fang_BOE_2012.htm)
+
+For more details, please check out the experiments section in the [paper](http://web2py.iiit.ac.in/research_centres/publications/download/inproceedings.pdf.b2c08820db3e1d98.53756b6573685f49435647495031385f53452e706466.pdf).
+
 ### Training
 
 The model can be trained to reproduced with command:  
